@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg navbar-light header">
+  <a class="navbar-brand" href="#">
+    <img src="../../assets/images/logo.png" alt="Image description" width="60" height="60" style="border-radius: 16px;">
+  </a>
+  <button class="navbar-toggler" type="button" (click)="toggleSidebar()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" [ngClass]="{ 'show': isSidebarOpen }">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contactlist" >Contatos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about">Sobre</a>
+      </li>
+    </ul>
+  </div>
+</nav>

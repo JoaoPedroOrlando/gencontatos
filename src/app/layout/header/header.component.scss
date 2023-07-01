@@ -1,0 +1,21 @@
+.navbar {
+  margin-bottom: 20px; /* Add some spacing at the bottom */
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  margin-right: 10px; /* Add some spacing between the links */
+}
+
+.sidebar-menu {
+  display: none; /* Hide the sidebar menu by default */
+}
+
+.sidebar-menu.open {
+  display: block; /* Show the sidebar menu when open class is added */
+}
