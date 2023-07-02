@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --configuration --base-href=/gencontatos/",
-    "ghpages":"angular-cli-ghpages --dir=dist",
+    "ghpages":"angular-cli-ghpages --dir=dist/gencontatos",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
